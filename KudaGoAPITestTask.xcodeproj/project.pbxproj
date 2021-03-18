@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CCEB97226023E28006C19BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCEB97126023E28006C19BD /* AppDelegate.swift */; };
+		2CCEB97426023E28006C19BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCEB97326023E28006C19BD /* SceneDelegate.swift */; };
+		2CCEB97926023E28006C19BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CCEB97726023E28006C19BD /* Main.storyboard */; };
+		2CCEB97C26023E28006C19BD /* KudaGoAPITestTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2CCEB97A26023E28006C19BD /* KudaGoAPITestTask.xcdatamodeld */; };
+		2CCEB97E26023E2A006C19BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CCEB97D26023E2A006C19BD /* Assets.xcassets */; };
+		2CCEB98126023E2A006C19BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CCEB97F26023E2A006C19BD /* LaunchScreen.storyboard */; };
+		2CCEB98B26023E68006C19BD /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCEB98A26023E68006C19BD /* Event.swift */; };
+		2CCEB99026023EA5006C19BD /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCEB98F26023EA5006C19BD /* NetworkService.swift */; };
+		2CCEB99826023F30006C19BD /* LoadedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCEB99726023F30006C19BD /* LoadedImageView.swift */; };
+		2CCEB99C26023F6B006C19BD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCEB99B26023F6B006C19BD /* Constants.swift */; };
+		2CCEB9A426024046006C19BD /* EventCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCEB9A326024046006C19BD /* EventCollectionViewCell.swift */; };
+		2CCEB9A8260240B3006C19BD /* EventListCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCEB9A7260240B3006C19BD /* EventListCollectionViewController.swift */; };
+		2CCEB9AB260240E2006C19BD /* DetailEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCEB9AA260240E2006C19BD /* DetailEventViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2CCEB96E26023E28006C19BD /* KudaGoAPITestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KudaGoAPITestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CCEB97126023E28006C19BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2CCEB97326023E28006C19BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2CCEB97826023E28006C19BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CCEB97B26023E28006C19BD /* KudaGoAPITestTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KudaGoAPITestTask.xcdatamodel; sourceTree = "<group>"; };
+		2CCEB97D26023E2A006C19BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CCEB98026023E2A006C19BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2CCEB98226023E2A006C19BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CCEB98A26023E68006C19BD /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		2CCEB98F26023EA5006C19BD /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		2CCEB99726023F30006C19BD /* LoadedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadedImageView.swift; sourceTree = "<group>"; };
+		2CCEB99B26023F6B006C19BD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2CCEB9A326024046006C19BD /* EventCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCollectionViewCell.swift; sourceTree = "<group>"; };
+		2CCEB9A7260240B3006C19BD /* EventListCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListCollectionViewController.swift; sourceTree = "<group>"; };
+		2CCEB9AA260240E2006C19BD /* DetailEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEventViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CCEB96B26023E28006C19BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CCEB96526023E28006C19BD = {
+			isa = PBXGroup;
+			children = (
+				2CCEB97026023E28006C19BD /* KudaGoAPITestTask */,
+				2CCEB96F26023E28006C19BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CCEB96F26023E28006C19BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CCEB96E26023E28006C19BD /* KudaGoAPITestTask.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CCEB97026023E28006C19BD /* KudaGoAPITestTask */ = {
+			isa = PBXGroup;
+			children = (
+				2CCEB9A026023FDF006C19BD /* Supporting Application Files */,
+				2CCEB99E26023FA3006C19BD /* Constants */,
+				2CCEB99226023EF0006C19BD /* Services */,
+				2CCEB9A226023FFC006C19BD /* View */,
+				2CCEB98D26023E6D006C19BD /* Model */,
+				2CCEB9AD26024141006C19BD /* Controller */,
+			);
+			path = KudaGoAPITestTask;
+			sourceTree = "<group>";
+		};
+		2CCEB98D26023E6D006C19BD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2CCEB98A26023E68006C19BD /* Event.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2CCEB99226023EF0006C19BD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2CCEB98F26023EA5006C19BD /* NetworkService.swift */,
+				2CCEB99726023F30006C19BD /* LoadedImageView.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2CCEB99E26023FA3006C19BD /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				2CCEB99B26023F6B006C19BD /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		2CCEB9A026023FDF006C19BD /* Supporting Application Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CCEB97126023E28006C19BD /* AppDelegate.swift */,
+				2CCEB97326023E28006C19BD /* SceneDelegate.swift */,
+				2CCEB97D26023E2A006C19BD /* Assets.xcassets */,
+				2CCEB98226023E2A006C19BD /* Info.plist */,
+				2CCEB97A26023E28006C19BD /* KudaGoAPITestTask.xcdatamodeld */,
+			);
+			path = "Supporting Application Files";
+			sourceTree = "<group>";
+		};
+		2CCEB9A226023FFC006C19BD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2CCEB97726023E28006C19BD /* Main.storyboard */,
+				2CCEB9A326024046006C19BD /* EventCollectionViewCell.swift */,
+				2CCEB97F26023E2A006C19BD /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2CCEB9AD26024141006C19BD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2CCEB9A7260240B3006C19BD /* EventListCollectionViewController.swift */,
+				2CCEB9AA260240E2006C19BD /* DetailEventViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CCEB96D26023E28006C19BD /* KudaGoAPITestTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CCEB98526023E2A006C19BD /* Build configuration list for PBXNativeTarget "KudaGoAPITestTask" */;
+			buildPhases = (
+				2CCEB96A26023E28006C19BD /* Sources */,
+				2CCEB96B26023E28006C19BD /* Frameworks */,
+				2CCEB96C26023E28006C19BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KudaGoAPITestTask;
+			productName = KudaGoAPITestTask;
+			productReference = 2CCEB96E26023E28006C19BD /* KudaGoAPITestTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CCEB96626023E28006C19BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					2CCEB96D26023E28006C19BD = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 2CCEB96926023E28006C19BD /* Build configuration list for PBXProject "KudaGoAPITestTask" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CCEB96526023E28006C19BD;
+			productRefGroup = 2CCEB96F26023E28006C19BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CCEB96D26023E28006C19BD /* KudaGoAPITestTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CCEB96C26023E28006C19BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CCEB98126023E2A006C19BD /* LaunchScreen.storyboard in Resources */,
+				2CCEB97E26023E2A006C19BD /* Assets.xcassets in Resources */,
+				2CCEB97926023E28006C19BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CCEB96A26023E28006C19BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CCEB99026023EA5006C19BD /* NetworkService.swift in Sources */,
+				2CCEB9A426024046006C19BD /* EventCollectionViewCell.swift in Sources */,
+				2CCEB99826023F30006C19BD /* LoadedImageView.swift in Sources */,
+				2CCEB9A8260240B3006C19BD /* EventListCollectionViewController.swift in Sources */,
+				2CCEB98B26023E68006C19BD /* Event.swift in Sources */,
+				2CCEB97226023E28006C19BD /* AppDelegate.swift in Sources */,
+				2CCEB9AB260240E2006C19BD /* DetailEventViewController.swift in Sources */,
+				2CCEB99C26023F6B006C19BD /* Constants.swift in Sources */,
+				2CCEB97C26023E28006C19BD /* KudaGoAPITestTask.xcdatamodeld in Sources */,
+				2CCEB97426023E28006C19BD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2CCEB97726023E28006C19BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CCEB97826023E28006C19BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2CCEB97F26023E2A006C19BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CCEB98026023E2A006C19BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CCEB98326023E2A006C19BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2CCEB98426023E2A006C19BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CCEB98626023E2A006C19BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y8GJSR9MXQ;
+				INFOPLIST_FILE = "KudaGoAPITestTask/Supporting Application Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kazantsev.KudaGoAPITestTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2CCEB98726023E2A006C19BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y8GJSR9MXQ;
+				INFOPLIST_FILE = "KudaGoAPITestTask/Supporting Application Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kazantsev.KudaGoAPITestTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CCEB96926023E28006C19BD /* Build configuration list for PBXProject "KudaGoAPITestTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CCEB98326023E2A006C19BD /* Debug */,
+				2CCEB98426023E2A006C19BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CCEB98526023E2A006C19BD /* Build configuration list for PBXNativeTarget "KudaGoAPITestTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CCEB98626023E2A006C19BD /* Debug */,
+				2CCEB98726023E2A006C19BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2CCEB97A26023E28006C19BD /* KudaGoAPITestTask.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2CCEB97B26023E28006C19BD /* KudaGoAPITestTask.xcdatamodel */,
+			);
+			currentVersion = 2CCEB97B26023E28006C19BD /* KudaGoAPITestTask.xcdatamodel */;
+			path = KudaGoAPITestTask.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2CCEB96626023E28006C19BD /* Project object */;
+}
